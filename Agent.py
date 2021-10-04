@@ -112,3 +112,6 @@ def main():
     print('Percept',ag.PerceiveCurrentLocation())
     ag.TakeAction('Right')
     print('Percept',ag.PerceiveCurrentLocation())
+    
+if __name__=='__main__':
+    main()
